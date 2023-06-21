@@ -1,0 +1,79 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2021/05/10/14/48/rain-6243559_960_720.jpg");
+    padding: 2rem;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Itim', cursive;
+}
+
+button{
+    
+    background: none;
+    outline: none;
+    margin-left: 1rem;
+    background-color: rgb(84, 171, 214);
+    padding: .6rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform ease .3s;   
+}
+
+button:hover{
+    color: yellow;
+    background-color: ;
+    transform: scale(1.1) ;
+
+}
+input:hover{
+    /* color: yellow; */
+    background-color: rgb(213, 180, 34);
+    transform: scale(1.1) ;
+}
+
+h1{
+    margin-bottom: 1rem;
+    color: rgb(193, 12, 12);
+    font-size: 3rem;
+}
+input{
+    
+    background: none;
+    outline: none;
+    margin: 1rem auto;
+    padding: .6rem;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    
+}
+
+.msg{
+    display: block;
+}
+
+form{
+    text-align: center;
+}
+
+.nav_logo{
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    width: 20%;
+    max-width: 700px;
+    min-width: 300px;
+}
+
+.page-footer{
+    text-align: center;
+    margin-top: 5.4rem;
+    font-size: 1.3rem;
+    color: rgb(71, 193, 245);
+}
